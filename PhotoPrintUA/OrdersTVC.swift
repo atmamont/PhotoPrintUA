@@ -18,6 +18,8 @@ class OrdersTVC: UITableViewController {
         
         df.dateStyle = .ShortStyle
         df.timeStyle = .NoStyle
+        
+        view.backgroundColor = UI.catskillWhite
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -51,9 +53,18 @@ class OrdersTVC: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("orderCell", forIndexPath: indexPath) as! OrderTableViewCell
 
         let o = Model.sharedInstance.orders[indexPath.row]
-        cell.sumLabel.text = String(o.sum)
-        cell.statusLabel.text = o.status
+        cell.sumLabel.text = String(o.sum) + NSLocalizedString(" uah", comment: "Currency")
+        cell.statusLabel.text = NSLocalizedString("Status: ", comment: "") + o.status
         cell.dateLabel.text = df.stringFromDate(o.creationDate)
+        cell.photoFormat.text = NSLocalizedString("Size: ", comment: "") + o.photoFormat.description
+        cell.photosCount.text = NSLocalizedString("Selected photos: ", comment: "") + String(o.photos.count)
+
+        cell.layer.cornerRadius = CGFloat(10.0)
+        cell.clipsToBounds = true;
+        cell.layer.borderWidth = 5.0
+        cell.layer.borderColor = UI.catskillWhite.CGColor
+//        cell.layer.backgroundColor = UI.catskillWhite.CGColor
+        
         return cell
     }
 
@@ -65,17 +76,20 @@ class OrdersTVC: UITableViewController {
     }
     */
 
-    /*
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
             // Delete the row from the data source
+            if Model.sharedInstance.orders[indexPath.row] == Model.sharedInstance.currentOrder {
+                Model.sharedInstance.currentOrder = nil
+            }
+            Model.sharedInstance.orders.removeAtIndex(indexPath.row)
+            Model.sharedInstance.saveData()
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
 
     /*
     // Override to support rearranging the table view.
@@ -92,14 +106,15 @@ class OrdersTVC: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if sender is OrderTableViewCell {
+            let vc = segue.destinationViewController as?OrderViewController
+            let indexPath = tableView.indexPathForCell(sender as! OrderTableViewCell)!
+            vc?.order = Model.sharedInstance.orders[indexPath.row]
+        }
     }
-    */
 
 }

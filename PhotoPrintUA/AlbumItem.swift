@@ -12,24 +12,41 @@ class AlbumItem: NSObject, NSCoding {
     var caption: String = ""
     var date: NSDate = NSDate()
     var filepath: String = ""
-    var image: UIImage?
-    
-    
-    func getImage() -> UIImage? {
-        if image != nil{
-            return image!
-        }else{
+    var image: UIImage?{
+        get{
+            guard filepath != "" else {return nil}
+            
             print("Restoring image from file "+filepath)
             let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
             let documentsDirectory = paths[0] as NSString
             let fullpath = documentsDirectory.stringByAppendingPathComponent(filepath)
             print("Restoring image from file "+fullpath)
             if let img = UIImage(contentsOfFile: fullpath){
-                self.image = img
                 return img
             }else {
                 return nil
             }
+        }
+    }
+    
+    
+    func getImage() -> UIImage? {
+        return self.image
+    }
+    
+    func cleanImage(){
+        if filepath == "" { return }
+        let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
+        let documentsDirectory = paths[0] as NSString
+        let fullpath = documentsDirectory.stringByAppendingPathComponent(filepath)
+        
+        do {
+            let fileManager:NSFileManager = NSFileManager.defaultManager()
+            try fileManager.removeItemAtPath(fullpath)
+            print("Removed photo \(fullpath)")
+        }
+        catch let error as NSError{
+            print(error.debugDescription)
         }
     }
     

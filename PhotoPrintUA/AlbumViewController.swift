@@ -10,10 +10,13 @@ import UIKit
 
 class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
+    @IBOutlet weak var bottomBar: UIToolbar!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var doneButton: UIBarButtonItem!
     @IBOutlet weak var albumTitle: UITextField!
     @IBOutlet weak var selectButton: UIBarButtonItem!
+    @IBOutlet weak var cancelButton: UIBarButtonItem!
+    
     var album: Album = Album()
     var selectionMode = false
     var selectedItems: [AlbumItem] = []
@@ -28,14 +31,21 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
-
+        
+        collectionView.backgroundColor = UI.catskillWhite
+        view.backgroundColor = UI.navy
+        bottomBar.barTintColor = UI.navy
+        bottomBar.tintColor = UIColor.whiteColor()
+        bottomBar.backgroundColor = UI.catskillWhite
+        
+        cancelButton.enabled = false
     }
     
     @IBAction func addPhotos(sender: UIBarButtonItem) {
         
-        let alertController = UIAlertController.init(title: "Add new photo", message: "", preferredStyle: .ActionSheet)
+        let alertController = UIAlertController.init(title: NSLocalizedString("Add new photo", comment: "Alert title"), message: "", preferredStyle: .ActionSheet)
         
-        let selectPhotoAction = UIAlertAction(title: "Photo library", style: .Default) {
+        let selectPhotoAction = UIAlertAction(title: NSLocalizedString("Photo library", comment: ""), style: .Default) {
 
             (action: UIAlertAction!) -> Void in
             
@@ -50,7 +60,7 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
         }
         
         
-        let takePhotoAction = UIAlertAction(title: "Camera", style: .Default) {
+        let takePhotoAction = UIAlertAction(title: NSLocalizedString("Camera", comment: ""), style: .Default) {
             
             (action: UIAlertAction!) -> Void in
             
@@ -65,7 +75,7 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
         }
 
         
-        let selectCancel = UIAlertAction(title: "Cancel", style: .Cancel, handler: nil)
+        let selectCancel = UIAlertAction(title: NSLocalizedString("Cancel", comment:""), style: .Cancel, handler: nil)
         
         if UIImagePickerController.isSourceTypeAvailable(.Camera)
         {
@@ -78,57 +88,80 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
        
     }
     
+    func setSelectButtonTitle(){
+        if let _ = Model.sharedInstance.currentOrder {
+        selectButton.title = String(format: NSLocalizedString("Add to order (%d)", comment: ""), selectedItems.count)
+        }else{
+        selectButton.title = String(format: NSLocalizedString("New order (%d)", comment: ""), selectedItems.count)
+        }
+    }
+    
     @IBAction func selectButtonTapped(sender: UIBarButtonItem) {
         if !selectionMode {
             selectionMode = true
             collectionView.allowsMultipleSelection = true
             
-            if let _ = Model.sharedInstance.currentOrder {
-                selectButton.title = NSLocalizedString("Add to order", comment: "")
-                
-            }else{
-                selectButton.title = NSLocalizedString("Create order",comment: "")
-                
-            }
+            setSelectButtonTitle()
             selectButton.style = .Done
+            
+            if selectedItems.count > 0 {
+                cancelButton.enabled = true
+            }
         }else{
             selectionMode = false
             collectionView.allowsMultipleSelection = false
-            
-            // creating new order if none active
-            var currentOrder: Order!
-            if let order = Model.sharedInstance.currentOrder {
-                currentOrder = order
-                print("Adding to existing order")
-            } else {
-                currentOrder = Order()
-                Model.sharedInstance.currentOrder = currentOrder
-                print("Creating new order")
-            }
-            
-            print("Adding %d items",selectedItems.count)
-            // adding selected photos to order
-            for item in selectedItems {
-                currentOrder.photos.append(item)
-            }
-            Model.sharedInstance.saveData()
 
-            // clearing visible selection and temp array of selected photos
-            selectedItems.removeAll()
-            for indexpath in collectionView.indexPathsForSelectedItems()! {
-                collectionView.deselectItemAtIndexPath(indexpath, animated: true)
+            if selectedItems.count > 0 {
+
+                // creating new order if none active
+                var currentOrder: Order!
+                if let order = Model.sharedInstance.currentOrder {
+                    currentOrder = order
+                    print("Adding to existing order")
+                } else {
+                    currentOrder = Order()
+                    Model.sharedInstance.currentOrder = currentOrder
+                    print("Creating new order")
+                }
+                
+                print("Adding %d items",selectedItems.count)
+                // adding selected photos to order
+                for item in selectedItems {
+                    currentOrder.photos.append(item)
+                }
+                Model.sharedInstance.saveData()
+                
+                performSegueWithIdentifier("showOrder", sender: self)
             }
-            
-            selectButton.title = "Select photos"
-            selectButton.style = .Plain
+            clearSelection()
         }
     }
 
+    @IBAction func cancelButtonTapped(sender: UIBarButtonItem) {
+        clearSelection()
+        selectionMode = false
+    }
+    
+    func clearSelection(){
+        // clearing visible selection and temp array of selected photos
+        selectedItems.removeAll()
+        for indexpath in collectionView.indexPathsForSelectedItems()! {
+            collectionView.deselectItemAtIndexPath(indexpath, animated: true)
+        }
+        selectButton.title = NSLocalizedString("Select", comment: "Select photos button")
+        selectButton.style = .Plain
+        
+    }
 //     MARK: - Navigation
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if sender === doneButton {
             album.title = albumTitle.text!
+        }
+        
+        if sender === self { // finished order editing
+            let vc = segue.destinationViewController as! OrderViewController
+            vc.order = Model.sharedInstance.currentOrder
         }
     }
     
@@ -149,10 +182,9 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
         return cell
     }
     
-    // always three photos in a row
+    // resize cells - always three photos in a row
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-//        return CGSizeMake((UIScreen.mainScreen().bounds.width-15)/4,120); //use height whatever you wants.
-        return CGSizeMake(collectionView.bounds.width/3-5, collectionView.bounds.width/3-5)
+        return CGSizeMake((collectionView.bounds.width)/3, (collectionView.bounds.width)/3)
 
     }
     
@@ -162,6 +194,11 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
         }
         let selectedItem = album.items[indexPath.row]
         selectedItems.append(selectedItem)
+        if selectedItems.count > 0 {
+            cancelButton.enabled = true
+        }
+        setSelectButtonTitle()
+
     }
     
     func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
@@ -172,7 +209,11 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
         if let index = selectedItems.indexOf(deSelectedItem) {
             selectedItems.removeAtIndex(index)
         }
-        
+        if selectedItems.count > 0 {
+            cancelButton.enabled = true
+        }
+        setSelectButtonTitle()
+
     }
     
     func collectionView(collectionView: UICollectionView, shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {

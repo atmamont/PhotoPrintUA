@@ -10,10 +10,9 @@ import UIKit
 
 class AlbumsTableViewCell: UITableViewCell {
 
-//    @IBOutlet weak var albumImage: UIImageView!
     @IBOutlet weak var albumNameLabel: UILabel!
     @IBOutlet weak var photosCountLabel: UILabel!
-    @IBOutlet weak var orderButton: UIButton!
+    @IBOutlet weak var img: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

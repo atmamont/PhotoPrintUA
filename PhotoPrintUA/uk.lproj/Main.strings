@@ -1,0 +1,96 @@
+
+/* Class = "UILabel"; text = "ZIP"; ObjectID = "0xt-7p-uLY"; */
+"0xt-7p-uLY.text" = "Індекс";
+
+/* Class = "UILabel"; text = "Album name"; ObjectID = "4b4-Nu-6w5"; */
+"4b4-Nu-6w5.text" = "Назва альбому";
+
+/* Class = "UILabel"; text = "Photos count value"; ObjectID = "6al-Sc-4v6"; */
+"6al-Sc-4v6.text" = "Кількість фото";
+
+/* Class = "UIButton"; normalTitle = ">"; ObjectID = "B6j-DJ-zw8"; */
+"B6j-DJ-zw8.normalTitle" = ">";
+
+/* Class = "UINavigationItem"; title = "Address"; ObjectID = "Eny-PX-SJt"; */
+"Eny-PX-SJt.title" = "Адреса";
+
+/* Class = "UIBarButtonItem"; title = "Select"; ObjectID = "JKy-3p-8Oc"; */
+"JKy-3p-8Oc.title" = "Відбір";
+
+/* Class = "UILabel"; text = "Order status"; ObjectID = "K6g-xA-qO9"; */
+"K6g-xA-qO9.text" = "Статус замовлення";
+
+/* Class = "UILabel"; text = "Select photo print size"; ObjectID = "KwQ-Xq-0J6"; */
+"KwQ-Xq-0J6.text" = "Розмір фото";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "LQG-Kf-AzG"; */
+"LQG-Kf-AzG.text" = "Місто";
+
+/* Class = "UINavigationItem"; title = "Albums"; ObjectID = "OmC-Pg-YWf"; */
+"OmC-Pg-YWf.title" = "Альбоми";
+
+/* Class = "UINavigationItem"; title = "Album"; ObjectID = "PUP-Uh-tXS"; */
+"PUP-Uh-tXS.title" = "Альбом";
+
+/* Class = "UILabel"; text = "Country"; ObjectID = "Qhc-BP-ytr"; */
+"Qhc-BP-ytr.text" = "Країна";
+
+/* Class = "UITextField"; placeholder = "Enter album name"; ObjectID = "S8w-P9-lLY"; */
+"S8w-P9-lLY.placeholder" = "Введіть назву альбому";
+
+/* Class = "UINavigationItem"; title = "Order"; ObjectID = "VS2-Vq-SSX"; */
+"VS2-Vq-SSX.title" = "Замовлення";
+
+/* Class = "UITabBarItem"; title = "Albums"; ObjectID = "VTa-Id-IVJ"; */
+"VTa-Id-IVJ.title" = "Альбоми";
+
+/* Class = "UILabel"; text = "Photos selected:"; ObjectID = "WDB-0M-O2j"; */
+"WDB-0M-O2j.text" = "Відібрано фото:";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "XCa-0r-uDv"; */
+"XCa-0r-uDv.text" = "Адреса";
+
+/* Class = "UIButton"; normalTitle = "Pay now"; ObjectID = "ZBM-Bc-l0o"; */
+"ZBM-Bc-l0o.normalTitle" = "Сплатити";
+
+/* Class = "UITabBarItem"; title = "Orders"; ObjectID = "cI2-Av-ACy"; */
+"cI2-Av-ACy.title" = "Замовлення";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "cJC-Cb-ZXz"; */
+"cJC-Cb-ZXz.title" = "Item";
+
+/* Class = "UILabel"; text = "Street"; ObjectID = "fCp-2K-Pkd"; */
+"fCp-2K-Pkd.text" = "Street";
+
+/* Class = "UILabel"; text = "Size:"; ObjectID = "gIW-WQ-kUP"; */
+"gIW-WQ-kUP.text" = "Розмір:";
+
+/* Class = "UILabel"; text = "Order creation date"; ObjectID = "gio-rd-cxj"; */
+"gio-rd-cxj.text" = "Дата створення";
+
+/* Class = "UILabel"; text = "Phone number"; ObjectID = "jkn-ME-839"; */
+"jkn-ME-839.text" = "Номер телефону";
+
+/* Class = "UILabel"; text = "Total sum value"; ObjectID = "mZw-MI-xI5"; */
+"mZw-MI-xI5.text" = "Всього";
+
+/* Class = "UILabel"; text = "First name"; ObjectID = "mrF-gG-rt4"; */
+"mrF-gG-rt4.text" = "Ім'я";
+
+/* Class = "UILabel"; text = "Last name"; ObjectID = "nR0-w1-ndN"; */
+"nR0-w1-ndN.text" = "Прізвище";
+
+/* Class = "UILabel"; text = "Order sum"; ObjectID = "oMo-il-TbD"; */
+"oMo-il-TbD.text" = "Order sum";
+
+/* Class = "UILabel"; text = "Photos selected:"; ObjectID = "p1R-2w-l9v"; */
+"p1R-2w-l9v.text" = "Відібрано фото:";
+
+/* Class = "UILabel"; text = "Photos count"; ObjectID = "qTL-0Q-oP1"; */
+"qTL-0Q-oP1.text" = "Кількість фото";
+
+/* Class = "UILabel"; text = "Total (UAH):"; ObjectID = "wA7-6q-gEh"; */
+"wA7-6q-gEh.text" = "Всього (грн):";
+
+/* Class = "UINavigationItem"; title = "Orders"; ObjectID = "xUB-3D-Lzc"; */
+"xUB-3D-Lzc.title" = "Замовлення";

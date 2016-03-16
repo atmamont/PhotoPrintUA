@@ -11,12 +11,23 @@ import UIKit
 class Order: NSObject {
     var creationDate: NSDate!
     var address: Address?
-    var photos: [AlbumItem] = []
+    var photos: [AlbumItem] = []{
+        didSet{
+            calcPrice()
+        }
+    }
     var sum: Double = 0.0
     var status: String = NSLocalizedString("New", comment: "Default status of an order")
-    var photoFormat: PhotoFormat = .f10x18
+    var photoFormat: PhotoFormat = .f10x18 {
+        didSet {
+            calcPrice()
+        }
+    }
     var editable = true
     
+    func calcPrice(){
+        self.sum = PriceCalc(order: self).price
+    }
 //    var name: String {
 //        if album.count>0 {
 //            var n = ""

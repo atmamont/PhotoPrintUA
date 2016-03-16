@@ -13,6 +13,10 @@ class OrderTableViewCell: UITableViewCell {
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var sumLabel: UILabel!
+    @IBOutlet weak var photosCount: UILabel!
+    @IBOutlet weak var photoFormat: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
