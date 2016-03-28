@@ -30,8 +30,8 @@
 		552EBFAD1C7A31FE003A392C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552EBFAC1C7A31FE003A392C /* Address.swift */; };
 		552EBFAF1C7A38C9003A392C /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552EBFAE1C7A38C9003A392C /* AlbumViewController.swift */; };
 		552EBFB11C7A3A6C003A392C /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552EBFB01C7A3A6C003A392C /* AlbumsTableViewController.swift */; };
-		552EBFB31C7A4399003A392C /* AlbumsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552EBFB21C7A4399003A392C /* AlbumsTableViewCell.swift */; };
 		553C06A01C983DC2007F4153 /* AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C069F1C983DC2007F4153 /* AddressVC.swift */; };
+		556AAB721C9C918F00751923 /* SSCheckMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 556AAB711C9C918F00751923 /* SSCheckMark.m */; };
 		556DF8BA1C80F9D8002735C3 /* entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 556DF8B91C80F9D8002735C3 /* entitlements.plist */; };
 		55B73AD11C5D4FC00095B898 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B73AD01C5D4FC00095B898 /* LoginViewController.swift */; };
 		55B73AD31C5D55C00095B898 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B73AD21C5D55C00095B898 /* Model.swift */; };
@@ -39,7 +39,6 @@
 		55E9B1481C98A95200E6B412 /* PriceCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E9B1471C98A95200E6B412 /* PriceCalc.swift */; };
 		55E9B14A1C98AE2900E6B412 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 55E9B1491C98AE2900E6B412 /* TODO */; };
 		55E9B14F1C99AFE100E6B412 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E9B14D1C99AFE100E6B412 /* Localizable.strings */; };
-		55FDA80F1C7CFB270064C431 /* AlbumItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDA80E1C7CFB270064C431 /* AlbumItemCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,8 +87,10 @@
 		552EBFAC1C7A31FE003A392C /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		552EBFAE1C7A38C9003A392C /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		552EBFB01C7A3A6C003A392C /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
-		552EBFB21C7A4399003A392C /* AlbumsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewCell.swift; sourceTree = "<group>"; };
 		553C069F1C983DC2007F4153 /* AddressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressVC.swift; sourceTree = "<group>"; };
+		556AAB701C9C918E00751923 /* PhotoPrintUA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoPrintUA-Bridging-Header.h"; sourceTree = "<group>"; };
+		556AAB711C9C918F00751923 /* SSCheckMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCheckMark.m; sourceTree = "<group>"; };
+		556AAB731C9C91C500751923 /* SSCheckMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCheckMark.h; sourceTree = "<group>"; };
 		556DF8B91C80F9D8002735C3 /* entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entitlements.plist; sourceTree = "<group>"; };
 		55B73AD01C5D4FC00095B898 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		55B73AD21C5D55C00095B898 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -100,7 +101,6 @@
 		55E9B14C1C99ADBE00E6B412 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		55E9B14E1C99AFE100E6B412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		55E9B1501C99B20300E6B412 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
-		55FDA80E1C7CFB270064C431 /* AlbumItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		5A558FFAA74F4950C139882A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D42B48FFFE659C925BD73D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7BE267A7B388F1C3D290EEF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -181,22 +181,23 @@
 				551E88C91C5C0BAE00B1DAF0 /* ViewController.swift */,
 				55B73AD01C5D4FC00095B898 /* LoginViewController.swift */,
 				552EBFB01C7A3A6C003A392C /* AlbumsTableViewController.swift */,
-				552EBFB21C7A4399003A392C /* AlbumsTableViewCell.swift */,
 				552EBFAE1C7A38C9003A392C /* AlbumViewController.swift */,
-				55FDA80E1C7CFB270064C431 /* AlbumItemCollectionViewCell.swift */,
-				552EBFA71C7903A4003A392C /* Model */,
-				551E88CB1C5C0BAE00B1DAF0 /* Main.storyboard */,
-				55E9B14D1C99AFE100E6B412 /* Localizable.strings */,
 				5515F0671C957010007D157E /* OrdersTVC.swift */,
 				5515F0691C957049007D157E /* OrderTableViewCell.swift */,
 				5515F05D1C93748E007D157E /* OrderViewController.swift */,
 				55E9B1451C98A19400E6B412 /* OrderPhotosVC.swift */,
 				553C069F1C983DC2007F4153 /* AddressVC.swift */,
+				552EBFA71C7903A4003A392C /* Model */,
+				551E88CB1C5C0BAE00B1DAF0 /* Main.storyboard */,
+				55E9B14D1C99AFE100E6B412 /* Localizable.strings */,
 				5515F06B1C960A98007D157E /* Assets */,
 				551E88D01C5C0BAE00B1DAF0 /* LaunchScreen.storyboard */,
 				551E88D31C5C0BAE00B1DAF0 /* Info.plist */,
 				556DF8B91C80F9D8002735C3 /* entitlements.plist */,
 				55E9B1491C98AE2900E6B412 /* TODO */,
+				556AAB701C9C918E00751923 /* PhotoPrintUA-Bridging-Header.h */,
+				556AAB711C9C918F00751923 /* SSCheckMark.m */,
+				556AAB731C9C91C500751923 /* SSCheckMark.h */,
 			);
 			path = PhotoPrintUA;
 			sourceTree = "<group>";
@@ -438,7 +439,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55FDA80F1C7CFB270064C431 /* AlbumItemCollectionViewCell.swift in Sources */,
 				55B73AD11C5D4FC00095B898 /* LoginViewController.swift in Sources */,
 				551E88CA1C5C0BAE00B1DAF0 /* ViewController.swift in Sources */,
 				552EBFB11C7A3A6C003A392C /* AlbumsTableViewController.swift in Sources */,
@@ -449,6 +449,7 @@
 				55E9B1461C98A19400E6B412 /* OrderPhotosVC.swift in Sources */,
 				551E88C81C5C0BAE00B1DAF0 /* AppDelegate.swift in Sources */,
 				55B73AD31C5D55C00095B898 /* Model.swift in Sources */,
+				556AAB721C9C918F00751923 /* SSCheckMark.m in Sources */,
 				552EBFAF1C7A38C9003A392C /* AlbumViewController.swift in Sources */,
 				5515F05C1C93706F007D157E /* PhotoFormat.swift in Sources */,
 				5515F0681C957010007D157E /* OrdersTVC.swift in Sources */,
@@ -457,7 +458,6 @@
 				55E9B1481C98A95200E6B412 /* PriceCalc.swift in Sources */,
 				552EBFAB1C790472003A392C /* PostalAddress.swift in Sources */,
 				552EBFA91C79041F003A392C /* Order.swift in Sources */,
-				552EBFB31C7A4399003A392C /* AlbumsTableViewCell.swift in Sources */,
 				5515F05E1C93748E007D157E /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,6 +612,7 @@
 			baseConfigurationReference = 7BE267A7B388F1C3D290EEF1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoPrintUA/Info.plist;
@@ -619,6 +620,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Andrey.Mamchenko.PhotoPrintUA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhotoPrintUA/PhotoPrintUA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -627,6 +630,7 @@
 			baseConfigurationReference = 67D42B48FFFE659C925BD73D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoPrintUA/Info.plist;
@@ -634,6 +638,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Andrey.Mamchenko.PhotoPrintUA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhotoPrintUA/PhotoPrintUA-Bridging-Header.h";
 			};
 			name = Release;
 		};

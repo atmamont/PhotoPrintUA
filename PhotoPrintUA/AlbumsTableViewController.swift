@@ -7,7 +7,24 @@
 //
 
 import UIKit
-import Kingfisher
+
+class AlbumsTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var albumNameLabel: UILabel!
+    @IBOutlet weak var photosCountLabel: UILabel!
+    @IBOutlet weak var img: UIImageView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    override func setSelected(selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
+    }
+    
+}
 
 class AlbumsTableViewController: UITableViewController {
     
@@ -139,7 +156,6 @@ class AlbumsTableViewController: UITableViewController {
         if let sourceVC = sender.sourceViewController as? AlbumViewController  {
             let a = sourceVC.album
             if a.title != ""{
-    //            let newIndexPath = NSIndexPath(forRow: Model.sharedInstance.albums.count, inSection: 0)
                 if !Model.sharedInstance.albums.contains(a) {
                     Model.sharedInstance.albums.append(a)
 
@@ -147,7 +163,6 @@ class AlbumsTableViewController: UITableViewController {
                 Model.sharedInstance.saveData()
                 tableView.reloadData()
             }
-//            tableView.insertRowsAtIndexPaths([newIndexPath], withRowAnimation: .Bottom)
         }
         
         print(sender)

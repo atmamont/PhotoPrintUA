@@ -8,6 +8,13 @@
 
 import UIKit
 
+class AlbumItemCollectionViewCell: UICollectionViewCell {
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var checkMark: SSCheckMark!
+}
+
+
 class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var bottomBar: UIToolbar!
@@ -104,9 +111,9 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
             setSelectButtonTitle()
             selectButton.style = .Done
             
-            if selectedItems.count > 0 {
+//            if selectedItems.count > 0 {
                 cancelButton.enabled = true
-            }
+//            }
         }else{
             selectionMode = false
             collectionView.allowsMultipleSelection = false
@@ -135,11 +142,13 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
             }
             clearSelection()
         }
+        collectionView.reloadData()
     }
 
     @IBAction func cancelButtonTapped(sender: UIBarButtonItem) {
-        clearSelection()
         selectionMode = false
+        clearSelection()
+        collectionView.reloadData()
     }
     
     func clearSelection(){
@@ -147,10 +156,12 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
         selectedItems.removeAll()
         for indexpath in collectionView.indexPathsForSelectedItems()! {
             collectionView.deselectItemAtIndexPath(indexpath, animated: true)
+            let cell = collectionView.cellForItemAtIndexPath(indexpath) as! AlbumItemCollectionViewCell
+            cell.checkMark.checked = false
         }
         selectButton.title = NSLocalizedString("Select", comment: "Select photos button")
         selectButton.style = .Plain
-        
+        cancelButton.enabled = false
     }
 //     MARK: - Navigation
 
@@ -178,7 +189,8 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("albumItemCell", forIndexPath: indexPath) as! AlbumItemCollectionViewCell
         cell.imageView.image = album.items[indexPath.item].getImage()
-        cell.selectedBackgroundView = UIImageView(image: UIImage(named: "photo-frame-selected"))
+        cell.checkMark.hidden = !selectionMode
+        
         return cell
     }
     
@@ -192,6 +204,10 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
         guard selectionMode else{
             return
         }
+        
+        let cell = collectionView.cellForItemAtIndexPath(indexPath) as! AlbumItemCollectionViewCell
+        cell.checkMark.checked = true
+        
         let selectedItem = album.items[indexPath.row]
         selectedItems.append(selectedItem)
         if selectedItems.count > 0 {
@@ -202,9 +218,13 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
     }
     
     func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
-        guard selectionMode else {
-            return
-        }
+//        guard selectionMode else {
+//            return
+//        }
+
+        let cell = collectionView.cellForItemAtIndexPath(indexPath) as! AlbumItemCollectionViewCell
+        cell.checkMark.checked = false
+
         let deSelectedItem = album.items[indexPath.row]
         if let index = selectedItems.indexOf(deSelectedItem) {
             selectedItems.removeAtIndex(index)
