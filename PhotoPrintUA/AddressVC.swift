@@ -35,7 +35,7 @@ class AddressVC: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
 
         // tap gesture recognizer for hiding keyboard
-        let tapRec = UITapGestureRecognizer(target: self, action: Selector("hideKeyboard:"))
+        let tapRec = UITapGestureRecognizer(target: self, action: #selector(AddressVC.hideKeyboard(_:)))
         self.view.addGestureRecognizer(tapRec)
         updateUI()
     }

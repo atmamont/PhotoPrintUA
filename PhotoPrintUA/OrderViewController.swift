@@ -38,7 +38,7 @@ class OrderViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         self.addressTextField.inputAccessoryView = accessoryBar
         
         // tap gesture recognizer for hiding keyboard
-        let tapRec = UITapGestureRecognizer(target: self, action: Selector("hideKeyboard:"))
+        let tapRec = UITapGestureRecognizer(target: self, action: #selector(OrderViewController.hideKeyboard(_:)))
         self.view.addGestureRecognizer(tapRec)
         
         view.backgroundColor = UI.catskillWhite
