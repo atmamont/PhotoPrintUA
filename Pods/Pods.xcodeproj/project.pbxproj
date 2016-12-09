@@ -7,258 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07716D0B029BD449F8F3404BB9D640E5 /* Pods-PhotoPrintUAUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BF9085BAFDB94889665B76CD5C7B05 /* Pods-PhotoPrintUAUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BA862AA78ABDA3A2AA0FB50BEEE79DE /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1210C5987CCA6B9A8780C01FF96A8F15 /* KingfisherOptionsInfo.swift */; };
-		0EC44CB5F920B65A27C7B24DBD846494 /* Pods-PhotoPrintUATests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8A2A351BABCB79E3E4FD2448C2B881 /* Pods-PhotoPrintUATests-dummy.m */; };
-		1330B0EA4731C7B05E1B28696E7A4F17 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BD1DE0DAC7AF9BD8C1EA3758E5F3AC /* CFNetwork.framework */; };
-		1A0E24F4CC0A582722B8E1553908DDD5 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510FEA6C7A3500362EC851262C22D772 /* String+MD5.swift */; };
-		204CFF6FFB4BE31AAC48BFECEFA9E4B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830145CF1F6809BE1B3D5F36CCC2BC2 /* Foundation.framework */; };
-		30FE7F8BEF37E68F8B1EC536D43014AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830145CF1F6809BE1B3D5F36CCC2BC2 /* Foundation.framework */; };
-		3860C038A3800218409F5262610CAACE /* Pods-PhotoPrintUATests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D61EF803F085C2AC35CEE4CC15B0B4 /* Pods-PhotoPrintUATests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F9F47E161CD795B9DCF8FB63389C2E2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37671C975935FE33DA18CDB3F2CB44A2 /* ImageDownloader.swift */; };
-		5C89BA5DDA2E01E9829747EF9F32EE5D /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 459A0C259820D4E1E150847F8DA42530 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B5D074B0BCA71D300455F09210B7201 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27734EC334BF9F3C797588B673D457CF /* Resource.swift */; };
-		6E622771918298205EBEF656749DBB4E /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CB2434D6C0AF4F3FB51ECCA2F517E8 /* Kingfisher-dummy.m */; };
-		720C651326F68C4AC0A0F490B35F37D5 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CECA829E7C618343B4E132AEAE655F1 /* KingfisherManager.swift */; };
-		733FFA92A6A6AB48ADB39A83E9A181AB /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8993AFB06003213399829F7536227B /* UIButton+Kingfisher.swift */; };
-		81FC0EB4EA9728B575274BDA00B92A52 /* Pods-PhotoPrintUAUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E816C0008302CE15ABC43D25B31813ED /* Pods-PhotoPrintUAUITests-dummy.m */; };
-		837D4EF31291D34B1BBD609A05EDA1C8 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9640A25E62201046AAFFED0E70F90B4 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		912573CC1528B7B61542EE3612DC972C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830145CF1F6809BE1B3D5F36CCC2BC2 /* Foundation.framework */; };
-		93834370001004256C49BB4C57294876 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074FEFDE22760DF7EEB345571E7CF86 /* ImageTransition.swift */; };
-		97121D3105C3EE54FD9FFD7A02F80B2B /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA058F2D05C2FD35CA37757FAB67FC /* ThreadHelper.swift */; };
-		B55E1DA2A6D898127D0074A41231C4D2 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AF192B1BAE2239AF98AD8C585334F5 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5826B8F7B3F30DE020638FC0307EF70 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A57238848A3162FE8E83549389965E40 /* Pods-dummy.m */; };
-		B6DE75F44001B5D7D09FBCFDBA607343 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F9023BDB51280D21390E9F19611FA /* ImageCache.swift */; };
-		C4582937B18898F923874D0DD40581D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830145CF1F6809BE1B3D5F36CCC2BC2 /* Foundation.framework */; };
-		D3037A231F1C6A1B2BB2A5474F42A8AE /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA6F85A865052B75A569BAB2B85F09 /* Image.swift */; };
-		DED9D0FF58DC281359A2732D0AD92F20 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB6671EEB85D78CBD16F92794A3AB51 /* ImageView+Kingfisher.swift */; };
-		E35EA5B300CC022C22BDE81AA31174FE /* Pods-PhotoPrintUA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E900E34EAB558EB34EFE86D7A9996A74 /* Pods-PhotoPrintUA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFFC8D47A227A48EAEA80AF62272717C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830145CF1F6809BE1B3D5F36CCC2BC2 /* Foundation.framework */; };
-		F023ED0681498EA4B7AFE877F29318A2 /* Pods-PhotoPrintUA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3647E01F2B23735BE4C3337F792D850 /* Pods-PhotoPrintUA-dummy.m */; };
+		4898751311AEDDD41CED18D9EF5C83D6 /* Pods-PhotoPrintUATests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1D72F12DB48728FAACBBFE7E065122 /* Pods-PhotoPrintUATests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AE961A44C6655936E1C6B84216B41C1 /* Pods-PhotoPrintUATests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9920136136D5BB46CD0A0CA41C5CDC3 /* Pods-PhotoPrintUATests-dummy.m */; };
+		8A64F9B0F1C95D7287DEFF7F9E57ACCD /* Pods-PhotoPrintUA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA9D3FA8E32DACC631F53024E4B0126 /* Pods-PhotoPrintUA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ED85DA29A4866D9A9D5810B15EDE8E9 /* Pods-PhotoPrintUA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3995393CB6F32A2515A635BCC71115 /* Pods-PhotoPrintUA-dummy.m */; };
+		97FE8ACF7C507BB9EB6BCB5CACCE774C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D84074779DACA6766C212628C2070D12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		100DA4BEB408CD49026D4EBA785F4CC5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 175892047F5D57D69AC9D102FB92A2F2;
-			remoteInfo = Kingfisher;
-		};
-		7F0553EF171EDE932AC56618450CA84D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 175892047F5D57D69AC9D102FB92A2F2;
-			remoteInfo = Kingfisher;
-		};
-		96B7A10EFB406AA32C748F5DDEA75331 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 175892047F5D57D69AC9D102FB92A2F2;
-			remoteInfo = Kingfisher;
-		};
-		A5808D9D834DF6522B66A32CA371236B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 175892047F5D57D69AC9D102FB92A2F2;
-			remoteInfo = Kingfisher;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00E913782C3C678ACC90531EE7750E0D /* Pods_PhotoPrintUAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoPrintUAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BB112602101BDF96CFFD6F05D4B607D /* Pods-PhotoPrintUAUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoPrintUAUITests-frameworks.sh"; sourceTree = "<group>"; };
-		0BBAE66E76B745D270E15747216F7BFF /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
-		0E0A2754190937B50962FB2D89A60B04 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Kingfisher.modulemap; sourceTree = "<group>"; };
-		0ECE9B26537B58B3AC0D2B1CDE24D87B /* Pods-PhotoPrintUAUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PhotoPrintUAUITests.modulemap"; sourceTree = "<group>"; };
-		10A233877546A2D348906EB1B559807B /* Pods-PhotoPrintUATests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoPrintUATests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1210C5987CCA6B9A8780C01FF96A8F15 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		1830145CF1F6809BE1B3D5F36CCC2BC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		241EDA14DE953EA413E414C94239F7BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24D61EF803F085C2AC35CEE4CC15B0B4 /* Pods-PhotoPrintUATests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoPrintUATests-umbrella.h"; sourceTree = "<group>"; };
-		271BFC5E85D3008DF784B6119864AB06 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		27734EC334BF9F3C797588B673D457CF /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
-		27CB2434D6C0AF4F3FB51ECCA2F517E8 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
-		2B388CF85B7177CA63D11F7C04AB835A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		32D4383256B44612F4032FEDDFA26524 /* Pods-PhotoPrintUA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PhotoPrintUA.modulemap"; sourceTree = "<group>"; };
-		37671C975935FE33DA18CDB3F2CB44A2 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
-		380F9023BDB51280D21390E9F19611FA /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
-		410ABA2E1F29CACA6D2F2AB88ED7E678 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		459A0C259820D4E1E150847F8DA42530 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
-		4E24C64D9FE7B41C16CC51A6EC05FEB5 /* Pods-PhotoPrintUAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoPrintUAUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		510FEA6C7A3500362EC851262C22D772 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
-		55BF9085BAFDB94889665B76CD5C7B05 /* Pods-PhotoPrintUAUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoPrintUAUITests-umbrella.h"; sourceTree = "<group>"; };
-		562E51E14A64AFC515F6399C97C6FDD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C26A05F99BDDF220944380DADDC013E /* Pods-PhotoPrintUAUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoPrintUAUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5F14648628B653DECEA7E33457EAACD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FF90DC3390053261863EE8FE3C79CD4 /* Pods_PhotoPrintUA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoPrintUA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62BD1DE0DAC7AF9BD8C1EA3758E5F3AC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		6571BCD0E14270870CDEE42CA3EE576E /* Pods-PhotoPrintUATests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoPrintUATests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6B38DBA4DAC589A371C6B278C0366F4B /* Pods-PhotoPrintUATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoPrintUATests.debug.xcconfig"; sourceTree = "<group>"; };
-		6EF8B48D6DDBA51DDCCADFF2D53A4B39 /* Pods-PhotoPrintUA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoPrintUA-acknowledgements.plist"; sourceTree = "<group>"; };
-		714399423FBD1DF4B2DB596F32EDCBC4 /* Pods-PhotoPrintUAUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoPrintUAUITests-resources.sh"; sourceTree = "<group>"; };
-		716B2344B03D87C271D9707C11214AA8 /* Pods-PhotoPrintUAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoPrintUAUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7A7CBE30686A5127CBB5BE3C8825544C /* Pods-PhotoPrintUA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoPrintUA-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7CECA829E7C618343B4E132AEAE655F1 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
-		7D6349DD2836F312A73217F7B646CAEE /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
-		7F89543E21BAB42735868B83C740CBBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FB7780F47D20A7099390177E57819BA /* Pods-PhotoPrintUA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoPrintUA-frameworks.sh"; sourceTree = "<group>"; };
-		80752C971E2890923B3B5DF95897AEC8 /* Pods-PhotoPrintUAUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoPrintUAUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9074FEFDE22760DF7EEB345571E7CF86 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
-		94690CAAD09894ED9368333AEF38A801 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		9AEA058F2D05C2FD35CA37757FAB67FC /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
-		9FB6671EEB85D78CBD16F92794A3AB51 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
-		A57238848A3162FE8E83549389965E40 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		A5AF192B1BAE2239AF98AD8C585334F5 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		A6F5CEF3253659F19112887A55CC4B15 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABA7FEE31E6B803A64A39D6F1BB5B9C1 /* Pods-PhotoPrintUATests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoPrintUATests-resources.sh"; sourceTree = "<group>"; };
-		AC36614F10AEC994B6F11614BA65CB56 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B091B9762F4F9D0DF5A922C295EC19C4 /* Pods-PhotoPrintUA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoPrintUA.debug.xcconfig"; sourceTree = "<group>"; };
-		B4DA6F85A865052B75A569BAB2B85F09 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
-		B9E856DC7C608D254CEA36A8CD534971 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF3BCD10B8D93FC7977A6895FA3CABA1 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		C2E82F8A4E6F63B54AD5D031CB1DC16D /* Pods-PhotoPrintUATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoPrintUATests.release.xcconfig"; sourceTree = "<group>"; };
-		D47C35760017277B28A624318F5E95CD /* Pods-PhotoPrintUA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoPrintUA-resources.sh"; sourceTree = "<group>"; };
-		DC5CEE3D42C1025441BB1EC0ED1208EA /* Pods-PhotoPrintUATests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PhotoPrintUATests.modulemap"; sourceTree = "<group>"; };
-		E3647E01F2B23735BE4C3337F792D850 /* Pods-PhotoPrintUA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoPrintUA-dummy.m"; sourceTree = "<group>"; };
-		E816C0008302CE15ABC43D25B31813ED /* Pods-PhotoPrintUAUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoPrintUAUITests-dummy.m"; sourceTree = "<group>"; };
-		E900E34EAB558EB34EFE86D7A9996A74 /* Pods-PhotoPrintUA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoPrintUA-umbrella.h"; sourceTree = "<group>"; };
-		E92FF30BD9EC34A84762BC2CDFDD7416 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC8993AFB06003213399829F7536227B /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		EF15D2BC700D4BF400A7185443B9022D /* Pods_PhotoPrintUATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoPrintUATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFE9F19C1AB0E191D2FB0047C9E92068 /* Pods-PhotoPrintUA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoPrintUA.release.xcconfig"; sourceTree = "<group>"; };
-		F564BB120D612ACB67947E00D671BFBC /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		F9640A25E62201046AAFFED0E70F90B4 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
-		FA94175EDA55FAD3353D58F0F2B3A784 /* Pods-PhotoPrintUATests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoPrintUATests-frameworks.sh"; sourceTree = "<group>"; };
-		FE8A2A351BABCB79E3E4FD2448C2B881 /* Pods-PhotoPrintUATests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoPrintUATests-dummy.m"; sourceTree = "<group>"; };
+		0D7404D16FEF5D2CAD2413F2D517EBFE /* Pods-PhotoPrintUATests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoPrintUATests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FF3A49E3AC5CB7F8027812BE316A049 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128745C2E0307EB8CBA2D6AB0E2FA0F0 /* Pods-PhotoPrintUA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhotoPrintUA.modulemap"; sourceTree = "<group>"; };
+		1DC239F41E4C4A6DB423BACF188C6DF0 /* Pods_PhotoPrintUATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotoPrintUATests.framework; path = "Pods-PhotoPrintUATests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC8F760A2798EDFEA9A8594E916B6FA /* Pods-PhotoPrintUATests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoPrintUATests-frameworks.sh"; sourceTree = "<group>"; };
+		4190AF7E8669601703AC4E4D154B7BF5 /* Pods-PhotoPrintUATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoPrintUATests.release.xcconfig"; sourceTree = "<group>"; };
+		4220BF7EB425926FFB99EDFFF71BC784 /* Pods-PhotoPrintUA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoPrintUA.release.xcconfig"; sourceTree = "<group>"; };
+		4D77E20BCF6926FCBE4BA5AC824427DC /* Pods-PhotoPrintUATests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoPrintUATests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		510D19FF1034581D40AF3158AD08C28E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA9D3FA8E32DACC631F53024E4B0126 /* Pods-PhotoPrintUA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoPrintUA-umbrella.h"; sourceTree = "<group>"; };
+		5CBF40C31D7DC8F24F0F0303EF63EE96 /* Pods-PhotoPrintUATests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoPrintUATests-resources.sh"; sourceTree = "<group>"; };
+		68D978DAC4246C75BA7C79AEA007BD02 /* Pods-PhotoPrintUA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoPrintUA.debug.xcconfig"; sourceTree = "<group>"; };
+		7D2EC8FB00550CB27081CEF319EC3A15 /* Pods_PhotoPrintUA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotoPrintUA.framework; path = "Pods-PhotoPrintUA.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1D72F12DB48728FAACBBFE7E065122 /* Pods-PhotoPrintUATests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoPrintUATests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAEF40D332B05ECC7E8C7AE0A7C8889 /* Pods-PhotoPrintUA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoPrintUA-resources.sh"; sourceTree = "<group>"; };
+		B9920136136D5BB46CD0A0CA41C5CDC3 /* Pods-PhotoPrintUATests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoPrintUATests-dummy.m"; sourceTree = "<group>"; };
+		C50937C08896145C675C3C37A548AC7F /* Pods-PhotoPrintUATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoPrintUATests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF3995393CB6F32A2515A635BCC71115 /* Pods-PhotoPrintUA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoPrintUA-dummy.m"; sourceTree = "<group>"; };
+		E6B0426DB5675B00A0B23638B54024F4 /* Pods-PhotoPrintUATests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhotoPrintUATests.modulemap"; sourceTree = "<group>"; };
+		F0C667072056DDB2A4F9154E2EA2BEA3 /* Pods-PhotoPrintUA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoPrintUA-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5682006F951A3A9CE4B9008F56543DC /* Pods-PhotoPrintUA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoPrintUA-frameworks.sh"; sourceTree = "<group>"; };
+		FFFA9F1073CBE32A32AEC8BF8FBAEF22 /* Pods-PhotoPrintUA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoPrintUA-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A7CA150F8202D455853CCCC3C516C55 /* Frameworks */ = {
+		CACB90D8ECF881F4E6B57476C32B861B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1330B0EA4731C7B05E1B28696E7A4F17 /* CFNetwork.framework in Frameworks */,
-				204CFF6FFB4BE31AAC48BFECEFA9E4B0 /* Foundation.framework in Frameworks */,
+				97FE8ACF7C507BB9EB6BCB5CACCE774C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A2B9ECC45D3A307BF5E3BB70F8A2BBE /* Frameworks */ = {
+		ED38A6D331DA47396776DB98942B9557 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FE7F8BEF37E68F8B1EC536D43014AC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE5C5953F8A3FF01FAF6A4E76D98F2DE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4582937B18898F923874D0DD40581D0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4E0802F3F9A42DBD7C46DD3483CAFCA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				912573CC1528B7B61542EE3612DC972C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5C10E23D6135B8E40D984399DA1700E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFFC8D47A227A48EAEA80AF62272717C /* Foundation.framework in Frameworks */,
+				D84074779DACA6766C212628C2070D12 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37AAEFDDDAEE8EDE732751568378F5EB /* Pods */ = {
+		57453011CB6AA45635B5E34A0E154799 /* Pods-PhotoPrintUA */ = {
 			isa = PBXGroup;
 			children = (
-				5F14648628B653DECEA7E33457EAACD3 /* Info.plist */,
-				94690CAAD09894ED9368333AEF38A801 /* Pods.modulemap */,
-				E92FF30BD9EC34A84762BC2CDFDD7416 /* Pods-acknowledgements.markdown */,
-				410ABA2E1F29CACA6D2F2AB88ED7E678 /* Pods-acknowledgements.plist */,
-				A57238848A3162FE8E83549389965E40 /* Pods-dummy.m */,
-				BF3BCD10B8D93FC7977A6895FA3CABA1 /* Pods-frameworks.sh */,
-				F564BB120D612ACB67947E00D671BFBC /* Pods-resources.sh */,
-				A5AF192B1BAE2239AF98AD8C585334F5 /* Pods-umbrella.h */,
-				2B388CF85B7177CA63D11F7C04AB835A /* Pods.debug.xcconfig */,
-				271BFC5E85D3008DF784B6119864AB06 /* Pods.release.xcconfig */,
+				0FF3A49E3AC5CB7F8027812BE316A049 /* Info.plist */,
+				128745C2E0307EB8CBA2D6AB0E2FA0F0 /* Pods-PhotoPrintUA.modulemap */,
+				FFFA9F1073CBE32A32AEC8BF8FBAEF22 /* Pods-PhotoPrintUA-acknowledgements.markdown */,
+				F0C667072056DDB2A4F9154E2EA2BEA3 /* Pods-PhotoPrintUA-acknowledgements.plist */,
+				DF3995393CB6F32A2515A635BCC71115 /* Pods-PhotoPrintUA-dummy.m */,
+				F5682006F951A3A9CE4B9008F56543DC /* Pods-PhotoPrintUA-frameworks.sh */,
+				9EAEF40D332B05ECC7E8C7AE0A7C8889 /* Pods-PhotoPrintUA-resources.sh */,
+				5BA9D3FA8E32DACC631F53024E4B0126 /* Pods-PhotoPrintUA-umbrella.h */,
+				68D978DAC4246C75BA7C79AEA007BD02 /* Pods-PhotoPrintUA.debug.xcconfig */,
+				4220BF7EB425926FFB99EDFFF71BC784 /* Pods-PhotoPrintUA.release.xcconfig */,
 			);
-			name = Pods;
-			path = "Target Support Files/Pods";
+			name = "Pods-PhotoPrintUA";
+			path = "Target Support Files/Pods-PhotoPrintUA";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		70A02B67A41A6F38306E7F3C5F63F411 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFF9046D2410B3E36331C4861D1F7945 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5331A947A0346CC838CFC04C9A9D3B8A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A6F5CEF3253659F19112887A55CC4B15 /* Kingfisher.framework */,
-				AC36614F10AEC994B6F11614BA65CB56 /* Pods.framework */,
-				5FF90DC3390053261863EE8FE3C79CD4 /* Pods_PhotoPrintUA.framework */,
-				EF15D2BC700D4BF400A7185443B9022D /* Pods_PhotoPrintUATests.framework */,
-				00E913782C3C678ACC90531EE7750E0D /* Pods_PhotoPrintUAUITests.framework */,
+				7D2EC8FB00550CB27081CEF319EC3A15 /* Pods_PhotoPrintUA.framework */,
+				1DC239F41E4C4A6DB423BACF188C6DF0 /* Pods_PhotoPrintUATests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E439EACAF04A7AC2DCCAEF144334A04 /* Pods */ = {
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C1DAE59B3F59F35B52CAD35893359376 /* Kingfisher */,
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		63577A759171F5DA75BEDBB198E91CB3 /* Pods-PhotoPrintUAUITests */ = {
+		799178D340127177D7E2DDD582C0BD46 /* Pods-PhotoPrintUATests */ = {
 			isa = PBXGroup;
 			children = (
-				B9E856DC7C608D254CEA36A8CD534971 /* Info.plist */,
-				0ECE9B26537B58B3AC0D2B1CDE24D87B /* Pods-PhotoPrintUAUITests.modulemap */,
-				80752C971E2890923B3B5DF95897AEC8 /* Pods-PhotoPrintUAUITests-acknowledgements.markdown */,
-				5C26A05F99BDDF220944380DADDC013E /* Pods-PhotoPrintUAUITests-acknowledgements.plist */,
-				E816C0008302CE15ABC43D25B31813ED /* Pods-PhotoPrintUAUITests-dummy.m */,
-				0BB112602101BDF96CFFD6F05D4B607D /* Pods-PhotoPrintUAUITests-frameworks.sh */,
-				714399423FBD1DF4B2DB596F32EDCBC4 /* Pods-PhotoPrintUAUITests-resources.sh */,
-				55BF9085BAFDB94889665B76CD5C7B05 /* Pods-PhotoPrintUAUITests-umbrella.h */,
-				4E24C64D9FE7B41C16CC51A6EC05FEB5 /* Pods-PhotoPrintUAUITests.debug.xcconfig */,
-				716B2344B03D87C271D9707C11214AA8 /* Pods-PhotoPrintUAUITests.release.xcconfig */,
-			);
-			name = "Pods-PhotoPrintUAUITests";
-			path = "Target Support Files/Pods-PhotoPrintUAUITests";
-			sourceTree = "<group>";
-		};
-		70A878CBC325EA579BE19906B92F2E81 /* Pods-PhotoPrintUATests */ = {
-			isa = PBXGroup;
-			children = (
-				241EDA14DE953EA413E414C94239F7BE /* Info.plist */,
-				DC5CEE3D42C1025441BB1EC0ED1208EA /* Pods-PhotoPrintUATests.modulemap */,
-				6571BCD0E14270870CDEE42CA3EE576E /* Pods-PhotoPrintUATests-acknowledgements.markdown */,
-				10A233877546A2D348906EB1B559807B /* Pods-PhotoPrintUATests-acknowledgements.plist */,
-				FE8A2A351BABCB79E3E4FD2448C2B881 /* Pods-PhotoPrintUATests-dummy.m */,
-				FA94175EDA55FAD3353D58F0F2B3A784 /* Pods-PhotoPrintUATests-frameworks.sh */,
-				ABA7FEE31E6B803A64A39D6F1BB5B9C1 /* Pods-PhotoPrintUATests-resources.sh */,
-				24D61EF803F085C2AC35CEE4CC15B0B4 /* Pods-PhotoPrintUATests-umbrella.h */,
-				6B38DBA4DAC589A371C6B278C0366F4B /* Pods-PhotoPrintUATests.debug.xcconfig */,
-				C2E82F8A4E6F63B54AD5D031CB1DC16D /* Pods-PhotoPrintUATests.release.xcconfig */,
+				510D19FF1034581D40AF3158AD08C28E /* Info.plist */,
+				E6B0426DB5675B00A0B23638B54024F4 /* Pods-PhotoPrintUATests.modulemap */,
+				4D77E20BCF6926FCBE4BA5AC824427DC /* Pods-PhotoPrintUATests-acknowledgements.markdown */,
+				0D7404D16FEF5D2CAD2413F2D517EBFE /* Pods-PhotoPrintUATests-acknowledgements.plist */,
+				B9920136136D5BB46CD0A0CA41C5CDC3 /* Pods-PhotoPrintUATests-dummy.m */,
+				3CC8F760A2798EDFEA9A8594E916B6FA /* Pods-PhotoPrintUATests-frameworks.sh */,
+				5CBF40C31D7DC8F24F0F0303EF63EE96 /* Pods-PhotoPrintUATests-resources.sh */,
+				8F1D72F12DB48728FAACBBFE7E065122 /* Pods-PhotoPrintUATests-umbrella.h */,
+				C50937C08896145C675C3C37A548AC7F /* Pods-PhotoPrintUATests.debug.xcconfig */,
+				4190AF7E8669601703AC4E4D154B7BF5 /* Pods-PhotoPrintUATests.release.xcconfig */,
 			);
 			name = "Pods-PhotoPrintUATests";
 			path = "Target Support Files/Pods-PhotoPrintUATests";
@@ -267,220 +118,84 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				5E439EACAF04A7AC2DCCAEF144334A04 /* Pods */,
-				5331A947A0346CC838CFC04C9A9D3B8A /* Products */,
-				BC639EA60D50351F5BFEE8F872642921 /* Targets Support Files */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				70A02B67A41A6F38306E7F3C5F63F411 /* Products */,
+				9DAF71738CBA21E839A9CFCAC0299CD6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		93F59180D13071E01294ECED3E9F4385 /* Pods-PhotoPrintUA */ = {
+		9DAF71738CBA21E839A9CFCAC0299CD6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				562E51E14A64AFC515F6399C97C6FDD6 /* Info.plist */,
-				32D4383256B44612F4032FEDDFA26524 /* Pods-PhotoPrintUA.modulemap */,
-				7A7CBE30686A5127CBB5BE3C8825544C /* Pods-PhotoPrintUA-acknowledgements.markdown */,
-				6EF8B48D6DDBA51DDCCADFF2D53A4B39 /* Pods-PhotoPrintUA-acknowledgements.plist */,
-				E3647E01F2B23735BE4C3337F792D850 /* Pods-PhotoPrintUA-dummy.m */,
-				7FB7780F47D20A7099390177E57819BA /* Pods-PhotoPrintUA-frameworks.sh */,
-				D47C35760017277B28A624318F5E95CD /* Pods-PhotoPrintUA-resources.sh */,
-				E900E34EAB558EB34EFE86D7A9996A74 /* Pods-PhotoPrintUA-umbrella.h */,
-				B091B9762F4F9D0DF5A922C295EC19C4 /* Pods-PhotoPrintUA.debug.xcconfig */,
-				EFE9F19C1AB0E191D2FB0047C9E92068 /* Pods-PhotoPrintUA.release.xcconfig */,
-			);
-			name = "Pods-PhotoPrintUA";
-			path = "Target Support Files/Pods-PhotoPrintUA";
-			sourceTree = "<group>";
-		};
-		BC639EA60D50351F5BFEE8F872642921 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				37AAEFDDDAEE8EDE732751568378F5EB /* Pods */,
-				93F59180D13071E01294ECED3E9F4385 /* Pods-PhotoPrintUA */,
-				70A878CBC325EA579BE19906B92F2E81 /* Pods-PhotoPrintUATests */,
-				63577A759171F5DA75BEDBB198E91CB3 /* Pods-PhotoPrintUAUITests */,
+				57453011CB6AA45635B5E34A0E154799 /* Pods-PhotoPrintUA */,
+				799178D340127177D7E2DDD582C0BD46 /* Pods-PhotoPrintUATests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C1DAE59B3F59F35B52CAD35893359376 /* Kingfisher */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B4DA6F85A865052B75A569BAB2B85F09 /* Image.swift */,
-				380F9023BDB51280D21390E9F19611FA /* ImageCache.swift */,
-				37671C975935FE33DA18CDB3F2CB44A2 /* ImageDownloader.swift */,
-				9074FEFDE22760DF7EEB345571E7CF86 /* ImageTransition.swift */,
-				9FB6671EEB85D78CBD16F92794A3AB51 /* ImageView+Kingfisher.swift */,
-				459A0C259820D4E1E150847F8DA42530 /* Kingfisher.h */,
-				7CECA829E7C618343B4E132AEAE655F1 /* KingfisherManager.swift */,
-				1210C5987CCA6B9A8780C01FF96A8F15 /* KingfisherOptionsInfo.swift */,
-				27734EC334BF9F3C797588B673D457CF /* Resource.swift */,
-				510FEA6C7A3500362EC851262C22D772 /* String+MD5.swift */,
-				9AEA058F2D05C2FD35CA37757FAB67FC /* ThreadHelper.swift */,
-				EC8993AFB06003213399829F7536227B /* UIButton+Kingfisher.swift */,
-				E551018A09F987DE44077551A3582C66 /* Support Files */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
-			path = Kingfisher;
-			sourceTree = "<group>";
-		};
-		E551018A09F987DE44077551A3582C66 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F89543E21BAB42735868B83C740CBBD /* Info.plist */,
-				0E0A2754190937B50962FB2D89A60B04 /* Kingfisher.modulemap */,
-				0BBAE66E76B745D270E15747216F7BFF /* Kingfisher.xcconfig */,
-				27CB2434D6C0AF4F3FB51ECCA2F517E8 /* Kingfisher-dummy.m */,
-				7D6349DD2836F312A73217F7B646CAEE /* Kingfisher-prefix.pch */,
-				F9640A25E62201046AAFFED0E70F90B4 /* Kingfisher-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Kingfisher";
-			sourceTree = "<group>";
-		};
-		FFF9046D2410B3E36331C4861D1F7945 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				62BD1DE0DAC7AF9BD8C1EA3758E5F3AC /* CFNetwork.framework */,
-				1830145CF1F6809BE1B3D5F36CCC2BC2 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		31BA10CFDDE32E6B2B18F0418440C353 /* Headers */ = {
+		4889CE781D4C709DDEAFA8A56E98870B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55E1DA2A6D898127D0074A41231C4D2 /* Pods-umbrella.h in Headers */,
+				8A64F9B0F1C95D7287DEFF7F9E57ACCD /* Pods-PhotoPrintUA-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5898CB5CF9D1B1B2B4601A1673F4CB94 /* Headers */ = {
+		ED3523AFB076E5EDC4396867126334D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07716D0B029BD449F8F3404BB9D640E5 /* Pods-PhotoPrintUAUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF8A197B1D07E2AF4471B404D12B2045 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E35EA5B300CC022C22BDE81AA31174FE /* Pods-PhotoPrintUA-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1430875070E1174813C4812A4B13E27 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				837D4EF31291D34B1BBD609A05EDA1C8 /* Kingfisher-umbrella.h in Headers */,
-				5C89BA5DDA2E01E9829747EF9F32EE5D /* Kingfisher.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED70A6DA7A489FEEA793C9AB20C23A08 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3860C038A3800218409F5262610CAACE /* Pods-PhotoPrintUATests-umbrella.h in Headers */,
+				4898751311AEDDD41CED18D9EF5C83D6 /* Pods-PhotoPrintUATests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		03FE6C8DD425687A0DA14B3E861E9BA7 /* Pods-PhotoPrintUATests */ = {
+		B6911E078FD1763A8A49BB8568584E6D /* Pods-PhotoPrintUA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4E494B42B4E4A79592694F35940EA98 /* Build configuration list for PBXNativeTarget "Pods-PhotoPrintUATests" */;
+			buildConfigurationList = C7BB1AA3E62C1FB4A6F3B2C24B1DE540 /* Build configuration list for PBXNativeTarget "Pods-PhotoPrintUA" */;
 			buildPhases = (
-				6350C0FE4648A2E6EF057D6EF4BD8C18 /* Sources */,
-				7A2B9ECC45D3A307BF5E3BB70F8A2BBE /* Frameworks */,
-				ED70A6DA7A489FEEA793C9AB20C23A08 /* Headers */,
+				2FC0D7996B23424DAB830715590A8322 /* Sources */,
+				CACB90D8ECF881F4E6B57476C32B861B /* Frameworks */,
+				4889CE781D4C709DDEAFA8A56E98870B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				87C60BAFA1B9769202BDA61EBBA2CE2E /* PBXTargetDependency */,
-			);
-			name = "Pods-PhotoPrintUATests";
-			productName = "Pods-PhotoPrintUATests";
-			productReference = EF15D2BC700D4BF400A7185443B9022D /* Pods_PhotoPrintUATests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		175892047F5D57D69AC9D102FB92A2F2 /* Kingfisher */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EA1620441C79C9D60DEC1253A4DED9E /* Build configuration list for PBXNativeTarget "Kingfisher" */;
-			buildPhases = (
-				B3113E81B0E726CF2B7A925DE56BA37B /* Sources */,
-				1A7CA150F8202D455853CCCC3C516C55 /* Frameworks */,
-				E1430875070E1174813C4812A4B13E27 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Kingfisher;
-			productName = Kingfisher;
-			productReference = A6F5CEF3253659F19112887A55CC4B15 /* Kingfisher.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1FADD291612AC2C86C857F1DD666C8B4 /* Pods-PhotoPrintUA */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A8D7A2BEC1C2305D3DF70F21BC763A4B /* Build configuration list for PBXNativeTarget "Pods-PhotoPrintUA" */;
-			buildPhases = (
-				8D73950DB33E3D094A0CEC5F02B03B66 /* Sources */,
-				AE5C5953F8A3FF01FAF6A4E76D98F2DE /* Frameworks */,
-				AF8A197B1D07E2AF4471B404D12B2045 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEB9DB82CB01E4A1735B961CADD68FFB /* PBXTargetDependency */,
 			);
 			name = "Pods-PhotoPrintUA";
 			productName = "Pods-PhotoPrintUA";
-			productReference = 5FF90DC3390053261863EE8FE3C79CD4 /* Pods_PhotoPrintUA.framework */;
+			productReference = 7D2EC8FB00550CB27081CEF319EC3A15 /* Pods_PhotoPrintUA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EA3736E253FCCF6F997F0236AA71BCE7 /* Pods */ = {
+		D02EF585ABC4EF6441CBC5560840268D /* Pods-PhotoPrintUATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 044BD0AEED53703B2FF26C66E6A3358A /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 0F918D23D9A6F78D1122EE58EA0C67B6 /* Build configuration list for PBXNativeTarget "Pods-PhotoPrintUATests" */;
 			buildPhases = (
-				AE53A369E36E7BECACD485AB8E376BE7 /* Sources */,
-				B4E0802F3F9A42DBD7C46DD3483CAFCA /* Frameworks */,
-				31BA10CFDDE32E6B2B18F0418440C353 /* Headers */,
+				E8527CD54F1F9479FD26EFD661CC1932 /* Sources */,
+				ED38A6D331DA47396776DB98942B9557 /* Frameworks */,
+				ED3523AFB076E5EDC4396867126334D3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2DC285F71246FBBA93C3926397B56E95 /* PBXTargetDependency */,
 			);
-			name = Pods;
-			productName = Pods;
-			productReference = AC36614F10AEC994B6F11614BA65CB56 /* Pods.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F03087167BADEFF6B255C457ABF6C645 /* Pods-PhotoPrintUAUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E65130B625C41828C390CEE7596F3A81 /* Build configuration list for PBXNativeTarget "Pods-PhotoPrintUAUITests" */;
-			buildPhases = (
-				599F27E8FAB309E60906386E228EECE6 /* Sources */,
-				F5C10E23D6135B8E40D984399DA1700E /* Frameworks */,
-				5898CB5CF9D1B1B2B4601A1673F4CB94 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7E68E2B1489D95B4C415CA8595D52F7E /* PBXTargetDependency */,
-			);
-			name = "Pods-PhotoPrintUAUITests";
-			productName = "Pods-PhotoPrintUAUITests";
-			productReference = 00E913782C3C678ACC90531EE7750E0D /* Pods_PhotoPrintUAUITests.framework */;
+			name = "Pods-PhotoPrintUATests";
+			productName = "Pods-PhotoPrintUATests";
+			productReference = 1DC239F41E4C4A6DB423BACF188C6DF0 /* Pods_PhotoPrintUATests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -489,7 +204,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -500,347 +215,41 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5331A947A0346CC838CFC04C9A9D3B8A /* Products */;
+			productRefGroup = 70A02B67A41A6F38306E7F3C5F63F411 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				175892047F5D57D69AC9D102FB92A2F2 /* Kingfisher */,
-				EA3736E253FCCF6F997F0236AA71BCE7 /* Pods */,
-				1FADD291612AC2C86C857F1DD666C8B4 /* Pods-PhotoPrintUA */,
-				03FE6C8DD425687A0DA14B3E861E9BA7 /* Pods-PhotoPrintUATests */,
-				F03087167BADEFF6B255C457ABF6C645 /* Pods-PhotoPrintUAUITests */,
+				B6911E078FD1763A8A49BB8568584E6D /* Pods-PhotoPrintUA */,
+				D02EF585ABC4EF6441CBC5560840268D /* Pods-PhotoPrintUATests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		599F27E8FAB309E60906386E228EECE6 /* Sources */ = {
+		2FC0D7996B23424DAB830715590A8322 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81FC0EB4EA9728B575274BDA00B92A52 /* Pods-PhotoPrintUAUITests-dummy.m in Sources */,
+				8ED85DA29A4866D9A9D5810B15EDE8E9 /* Pods-PhotoPrintUA-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6350C0FE4648A2E6EF057D6EF4BD8C18 /* Sources */ = {
+		E8527CD54F1F9479FD26EFD661CC1932 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EC44CB5F920B65A27C7B24DBD846494 /* Pods-PhotoPrintUATests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D73950DB33E3D094A0CEC5F02B03B66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F023ED0681498EA4B7AFE877F29318A2 /* Pods-PhotoPrintUA-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE53A369E36E7BECACD485AB8E376BE7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5826B8F7B3F30DE020638FC0307EF70 /* Pods-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3113E81B0E726CF2B7A925DE56BA37B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3037A231F1C6A1B2BB2A5474F42A8AE /* Image.swift in Sources */,
-				B6DE75F44001B5D7D09FBCFDBA607343 /* ImageCache.swift in Sources */,
-				4F9F47E161CD795B9DCF8FB63389C2E2 /* ImageDownloader.swift in Sources */,
-				93834370001004256C49BB4C57294876 /* ImageTransition.swift in Sources */,
-				DED9D0FF58DC281359A2732D0AD92F20 /* ImageView+Kingfisher.swift in Sources */,
-				6E622771918298205EBEF656749DBB4E /* Kingfisher-dummy.m in Sources */,
-				720C651326F68C4AC0A0F490B35F37D5 /* KingfisherManager.swift in Sources */,
-				0BA862AA78ABDA3A2AA0FB50BEEE79DE /* KingfisherOptionsInfo.swift in Sources */,
-				6B5D074B0BCA71D300455F09210B7201 /* Resource.swift in Sources */,
-				1A0E24F4CC0A582722B8E1553908DDD5 /* String+MD5.swift in Sources */,
-				97121D3105C3EE54FD9FFD7A02F80B2B /* ThreadHelper.swift in Sources */,
-				733FFA92A6A6AB48ADB39A83E9A181AB /* UIButton+Kingfisher.swift in Sources */,
+				4AE961A44C6655936E1C6B84216B41C1 /* Pods-PhotoPrintUATests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2DC285F71246FBBA93C3926397B56E95 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = 175892047F5D57D69AC9D102FB92A2F2 /* Kingfisher */;
-			targetProxy = 96B7A10EFB406AA32C748F5DDEA75331 /* PBXContainerItemProxy */;
-		};
-		7E68E2B1489D95B4C415CA8595D52F7E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = 175892047F5D57D69AC9D102FB92A2F2 /* Kingfisher */;
-			targetProxy = A5808D9D834DF6522B66A32CA371236B /* PBXContainerItemProxy */;
-		};
-		87C60BAFA1B9769202BDA61EBBA2CE2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = 175892047F5D57D69AC9D102FB92A2F2 /* Kingfisher */;
-			targetProxy = 100DA4BEB408CD49026D4EBA785F4CC5 /* PBXContainerItemProxy */;
-		};
-		CEB9DB82CB01E4A1735B961CADD68FFB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = 175892047F5D57D69AC9D102FB92A2F2 /* Kingfisher */;
-			targetProxy = 7F0553EF171EDE932AC56618450CA84D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		1B39A163D6A52FEC007A1C1F83C0B39D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2E82F8A4E6F63B54AD5D031CB1DC16D /* Pods-PhotoPrintUATests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PhotoPrintUATests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PhotoPrintUATests/Pods-PhotoPrintUATests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PhotoPrintUATests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3158B5AAA7FFAB60D1F6BC1E71FF44A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E24C64D9FE7B41C16CC51A6EC05FEB5 /* Pods-PhotoPrintUAUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PhotoPrintUAUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PhotoPrintUAUITests/Pods-PhotoPrintUAUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PhotoPrintUAUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		34D44D1ECB6AE4E0B7C363B0C6ED5D7B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFE9F19C1AB0E191D2FB0047C9E92068 /* Pods-PhotoPrintUA.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PhotoPrintUA/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PhotoPrintUA/Pods-PhotoPrintUA.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PhotoPrintUA;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		41A4278F3DCA0DAF8E1F7863C4002EA5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B38DBA4DAC589A371C6B278C0366F4B /* Pods-PhotoPrintUATests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PhotoPrintUATests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PhotoPrintUATests/Pods-PhotoPrintUATests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PhotoPrintUATests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		43AB4AD9112EF406E8C8E67A52ADA9D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B091B9762F4F9D0DF5A922C295EC19C4 /* Pods-PhotoPrintUA.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PhotoPrintUA/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PhotoPrintUA/Pods-PhotoPrintUA.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PhotoPrintUA;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5E91F34CE2CFA06FD8A62E14A5E97B6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B388CF85B7177CA63D11F7C04AB835A /* Pods.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7E5A11B6B08C7770EB198F3965419062 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BBAE66E76B745D270E15747216F7BFF /* Kingfisher.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Kingfisher;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8D5A910A0A9FD1CD81F1914255227E1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 716B2344B03D87C271D9707C11214AA8 /* Pods-PhotoPrintUAUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PhotoPrintUAUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PhotoPrintUAUITests/Pods-PhotoPrintUAUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PhotoPrintUAUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -854,11 +263,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -871,33 +283,39 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B2FB607D2F807B68E13796B35556ACCA /* Release */ = {
+		1D5057C28976EF0D4A79BB929B024976 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 271BFC5E85D3008DF784B6119864AB06 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 4220BF7EB425926FFB99EDFFF71BC784 /* Pods-PhotoPrintUA.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoPrintUA/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoPrintUA/Pods-PhotoPrintUA.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoPrintUA;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -906,37 +324,46 @@
 			};
 			name = Release;
 		};
-		EF92A5479BC0A2AB1977B1394144EF93 /* Release */ = {
+		25E568F6881FC6C65A1A73E92E61284E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BBAE66E76B745D270E15747216F7BFF /* Kingfisher.xcconfig */;
+			baseConfigurationReference = C50937C08896145C675C3C37A548AC7F /* Pods-PhotoPrintUATests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoPrintUATests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Kingfisher;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoPrintUATests/Pods-PhotoPrintUATests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoPrintUATests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -950,10 +377,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -961,20 +392,91 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
+		996ABE057E167545461489FDAF7B680D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D978DAC4246C75BA7C79AEA007BD02 /* Pods-PhotoPrintUA.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoPrintUA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoPrintUA/Pods-PhotoPrintUA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoPrintUA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E76A479F7F3B0236640F94077EC13149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4190AF7E8669601703AC4E4D154B7BF5 /* Pods-PhotoPrintUATests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoPrintUATests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoPrintUATests/Pods-PhotoPrintUATests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoPrintUATests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		044BD0AEED53703B2FF26C66E6A3358A /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		0F918D23D9A6F78D1122EE58EA0C67B6 /* Build configuration list for PBXNativeTarget "Pods-PhotoPrintUATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E91F34CE2CFA06FD8A62E14A5E97B6B /* Debug */,
-				B2FB607D2F807B68E13796B35556ACCA /* Release */,
+				25E568F6881FC6C65A1A73E92E61284E /* Debug */,
+				E76A479F7F3B0236640F94077EC13149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -982,44 +484,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
-				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EA1620441C79C9D60DEC1253A4DED9E /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+		C7BB1AA3E62C1FB4A6F3B2C24B1DE540 /* Build configuration list for PBXNativeTarget "Pods-PhotoPrintUA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E5A11B6B08C7770EB198F3965419062 /* Debug */,
-				EF92A5479BC0A2AB1977B1394144EF93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8D7A2BEC1C2305D3DF70F21BC763A4B /* Build configuration list for PBXNativeTarget "Pods-PhotoPrintUA" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				43AB4AD9112EF406E8C8E67A52ADA9D7 /* Debug */,
-				34D44D1ECB6AE4E0B7C363B0C6ED5D7B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E65130B625C41828C390CEE7596F3A81 /* Build configuration list for PBXNativeTarget "Pods-PhotoPrintUAUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3158B5AAA7FFAB60D1F6BC1E71FF44A8 /* Debug */,
-				8D5A910A0A9FD1CD81F1914255227E1C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4E494B42B4E4A79592694F35940EA98 /* Build configuration list for PBXNativeTarget "Pods-PhotoPrintUATests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				41A4278F3DCA0DAF8E1F7863C4002EA5 /* Debug */,
-				1B39A163D6A52FEC007A1C1F83C0B39D /* Release */,
+				996ABE057E167545461489FDAF7B680D /* Debug */,
+				1D5057C28976EF0D4A79BB929B024976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
